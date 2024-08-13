@@ -155,3 +155,28 @@
     align-items: center;
     text-align: center;
 }
+.teams{
+    width: 1060px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 190px;
+    
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 12px;
+}
+.group{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+.prime{
+    margin-top: -100px;
+}
+.photos{
+    margin: 10px;
+}
