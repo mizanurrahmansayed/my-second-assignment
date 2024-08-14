@@ -154,12 +154,16 @@
 .title2{
     align-items: center;
     text-align: center;
+    width: 671px;
+    margin-left: 194px;
+    margin-bottom: 58px;
 }
 .teams{
     width: 1060px;
     align-items: center;
     justify-content: center;
     margin-left: 190px;
+    margin-top: 88px;
     
 }
 .team{
@@ -179,4 +183,54 @@
 }
 .photos{
     margin: 10px;
+}
+.foot{
+    background-color:rgba(34, 34, 34, 1) ;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+
+}
+.footers{
+    display: flex;
+    background-color:rgba(34, 34, 34, 1) ;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.fit2{
+    width:443px ;
+    
+}
+.nav1{
+     width:181px ;
+     margin-left: 102px;
+}
+.nav2{
+   width: 181px;
+   margin-left: 152px;
+}
+.last{
+    width: 1060px;
+    display: flex;
+    margin-top: 66px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+hr { 
+    border-bottom: 1px solid white;
+   width:1060px ;
+   bottom: 50px;
+   margin-bottom: -20px;
+   left: 0;
+    
+
+}
+.reserve{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 30px;
 }
