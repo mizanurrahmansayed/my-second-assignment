@@ -1,14 +1,26 @@
 
+                            @import url('https://fonts.cdnfonts.com/css/miama');
+                
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .fitness{
     background-color: rgba(17, 17, 17, 1);
     width: 1440px;
     height: 715px;
 }
+
+.shape-style{
+    font-family: 'Miama', sans-serif;
+                                                
+    font-weight: 200;
+                                                
+}
+                
 .fit{
     color: rgba(230, 83, 60, 1);
-    font-size: 36px;
-    font-weight: 900 ;
+    font-size: 46px;
+    font-weight: 700 ;
+    font-style: italic;
+    font-family: Inter ;
 }
 .display-flex{
     display: flex;
@@ -60,6 +72,7 @@
 }
 .btns{
     background-color: rgba(230, 83, 60, 1);
+    border: none;
 }
 .img1{
     width: 350px;
@@ -149,8 +162,46 @@
     margin-top: 88px;
 
 }
+table, th, td {
+    border:1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+  }
+  .tables{
+    justify-content: center;
+    text-align: center;
+    width: 310px;
+    height: 216px;
+    margin-right: 175px;
+  }
+ .login-form{
+   
+ }
+ .forms{
+    width: 577px;
+ }
+  .place{
+    background-color: rgba(187, 187, 187, 1);
+    height: 48px;
+    width: 270px;
+    border-radius: 12px;
+    margin: 5px;
+  }
+  .places{
+    background-color: rgba(187, 187, 187, 1);
+    width: 560px;
+    height: 48px;
+    border-radius: 12px;
+    margin: 5px;
 
-
+  }
+ .bmi-table{
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 487px;
+ }
 .title2{
     align-items: center;
     text-align: center;
