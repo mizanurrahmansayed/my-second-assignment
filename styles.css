@@ -1,5 +1,5 @@
 
-                            @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.cdnfonts.com/css/miama');
                 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .fitness{
@@ -43,6 +43,16 @@
     text-decoration: none;
     font-weight: 500;
   
+  }
+  .navigation{
+    border: .5px solid rgba(34, 34, 34, 1);
+    border-radius: 30px;
+  }
+
+  .images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   
   .navbar{
@@ -101,7 +111,13 @@
     height: 93px;
     border-radius: 12px;
     text-align: center;
-    margin-left: -100px;
+}
+.card2{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 93px;
+    border-radius: 12px;
+    text-align: center;
 }
 .principle{
     background-color: rgba(0, 0, 0, 1);
@@ -116,6 +132,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 350px;
+    margin-top: 20px;
 }
 .picture{
     display: flex;
@@ -125,11 +142,14 @@
     
 }
 .pic{
-    align-items: center;
+    text-align: center;
     width: 231px;
+    margin-bottom: 20px;
 }
 .pict{
     border-radius: 90px;
+    margin-bottom: 20px;
+
 }
 .run{
     width: 366px;
@@ -147,6 +167,9 @@
     margin-left: 190px;
     border-radius: 20px;
     margin-top: 100px;
+}
+.excersize{
+    background-color: rgba(250, 235, 215, 0.363);
 }
 .div1{
    width: 443px;
@@ -284,4 +307,21 @@ hr {
     margin-top: 50px;
     margin-bottom: 100px;
     padding: 30px;
+}
+
+@media screen and (max-width: 576px) {
+             .team  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+               }
+      .picture,
+      .runs , 
+      .display-flex ,
+      .bmi-table,
+      .shape,
+      .foot{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
 }
